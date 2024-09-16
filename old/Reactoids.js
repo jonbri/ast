@@ -175,13 +175,13 @@ export class Reacteroids extends Component {
             0,
             this.state.screen.width,
             ship.position.x - 60,
-            ship.position.x + 60,
+            ship.position.x + 60
           ),
           y: randomNumBetweenExcluding(
             0,
             this.state.screen.height,
             ship.position.y - 60,
-            ship.position.y + 60,
+            ship.position.y + 60
           ),
         },
         create: this.createObject.bind(this),
@@ -258,12 +258,8 @@ export class Reacteroids extends Component {
     return (
       <div>
         {endgame}
-        <span className="score current-score">
-          Score: {this.state.currentScore}
-        </span>
-        <span className="score top-score">
-          Top Score: {this.state.topScore}
-        </span>
+        <span className="score current-score">Score: {this.state.currentScore}</span>
+        <span className="score top-score">Top Score: {this.state.topScore}</span>
         <span className="controls">
           Use [A][S][W][D] or [←][↑][↓][→] to MOVE
           <br />

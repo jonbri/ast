@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'PT Mono', serif;
+  font-family: "PT Mono", serif;
   color: #ffffff;
 }
 canvas {
@@ -39,7 +39,7 @@ canvas {
   text-align: center;
   line-height: 1.6;
 }
-.endgame{
+.endgame {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -48,17 +48,17 @@ canvas {
   z-index: 1;
   text-align: center;
 }
-button{
+button {
   border: 4px solid #ffffff;
   background-color: transparent;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px;
   margin: 10px;
-  font-family: 'PT Mono', serif;
+  font-family: "PT Mono", serif;
   cursor: pointer;
 }
-button:hover{
+button:hover {
   background-color: #ffffff;
   color: #000000;
 }
